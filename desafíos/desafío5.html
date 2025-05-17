@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 5</title>
+</head>
+<body>
+    <script>
+        let productos = ["Jeans", "Camisa", "Shorts", "Campera", "Buzo", "Cardigan"];
+        function recorrerProductos() {
+            for (producto of productos){
+                console.log(producto)
+            }
+        }
+
+        recorrerProductos();
+
+        let productoPop = productos.pop();
+        console.log("El producto fuera de stock es:", productoPop)
+
+        recorrerProductos();
+    </script>
+</body>
+</html>
